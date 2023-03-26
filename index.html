@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Chu's China Bistro</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img" alt = "Logo image"></div>
+                    </a>
+
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <h1>David Chu's China Bistro</h1>
+                        </a>
+                        <p>
+                            <img src="images/star-k-logo.png" alt="Kosher Certification">
+                            <span>Kosher Certified</span>
+                        </p>
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs active">
+                            <a href="index.html">
+                                <span class="glyphicon glyphicon-home"></span> Home</a>
+                        </li>
+                        <li>
+                            <a href="menu-categories.html">
+                                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+                        </li>
+                        <li id="phone" class="hidden-xs">
+                            <a href="tel:xxx-xxx-xxxx">
+                                <span>xxx-xxx-xxxx</span></a><div>* We Deliver</div>
+                        </li>
+                    </ul><!-- #nav-list -->
+                </div><!-- .collapse .navbar-collapse --> 
+            </div><!--container-->
+        </nav>
+    </header>
+    <div class="container">
+        <div id="call-btn" class="visible-xs">
+            <a href="tel:xxx-xxx-xxxx">
+                <span class="glyphicon glyphicon-earphone"></span>
+                xxx-xxx-xxxx 
+            </a>
+        </div>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">* We deliver</div>
+
+    <div id="main-content" class="container">
+        <div class="jumbotron">
+            <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+        </div>
+        <div id="home-tiles" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="single-category.html"><div id="specials-tile"><span>Specials</span></div></a>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <a href="https://goo.gl/maps/eiZHuhmdSGZrS4fF6" target="_blank">
+                    <div id="map-tile">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d492.8727296176029!2d-76.7118614838366!3d39.36350471896755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1sen!2sin!4v1665255685140!5m2!1sen!2sin" 
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <span>Map</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:15am-10:00pm<br>
+                    Fri: 11:15am-2:30pm<br>
+                    Saturday:Closed
+                    <hr class="visible-xs"> 
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Address: </span><br>
+                    7015 Reistertown Road<br>
+                    Baltimore, MD 21215
+                    <p>*Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for
+                        all deliveries.</p>
+                    <hr class="visible-xs">
+                </section>
+                <section id="testimonials" class="col-sm-4">
+                    <p>Best Chinese food in town.</p>
+                    <p>If you haven't been here yet, you are totally missing out.</p>
+                </section>
+            </div>
+            <div class="text-center">
+                &copy; Copyright David Chu's China Bistro 2015
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
